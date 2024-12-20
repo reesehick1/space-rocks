@@ -20,6 +20,7 @@
     {"name":"obj_asteroids","order":1,"path":"objects/obj_asteroids/obj_asteroids.yy",},
     {"name":"obj_bullet","order":2,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"obj_debris","order":3,"path":"objects/obj_debris/obj_debris.yy",},
+    {"name":"obj_game","order":4,"path":"objects/obj_game/obj_game.yy",},
     {"name":"spr_asteroid_large","order":3,"path":"sprites/spr_asteroid_large/spr_asteroid_large.yy",},
     {"name":"spr_asteroid_medium","order":2,"path":"sprites/spr_asteroid_medium/spr_asteroid_medium.yy",},
     {"name":"spr_asteroid_small","order":1,"path":"sprites/spr_asteroid_small/spr_asteroid_small.yy",},
