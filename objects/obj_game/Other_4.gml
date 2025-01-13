@@ -10,5 +10,6 @@ repeat(6){
 		);
 		instance_create_layer(xx,yy,"instances" , obj_asteroids);
 	}
-
+	
+	alarm[0] = 60;
 }
