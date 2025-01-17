@@ -8,5 +8,5 @@ audio_play_sound(sound_hurt, 1, false);
 instance_destroy();
 
 repeat(10){
-	instance_create_layer(x,y,"instances");
+	instance_create_layer(x,y,"instances",obj_debris);
 }
