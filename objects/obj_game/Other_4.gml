@@ -1,5 +1,5 @@
 if (room == rm_game){
-repeat(6){
+	repeat(6){
 		var xx =choose(
 			irandom_range(0,room_width*0.3),
 			irandom_range(room_width*0.7,room_width)

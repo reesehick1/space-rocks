@@ -13,7 +13,7 @@ switch(room){
 		);
 		draw_text(
 			room_width/2, 200,
-@"score 1,000 points to win!
+@"score 800 points to win!
 
 UP: move
 LEFT/RIGHT: change direction
