@@ -15,4 +15,4 @@ if(choose(0,1) == 0){
 
 instance_create_layer(xx,yy, "instances", obj_asteroids);
 
-alarm[0] = 4*room_speed;
+alarm[0] = 4*game_get_speed(gamespeed_fps);

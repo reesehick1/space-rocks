@@ -15,8 +15,8 @@ switch(room){
 			room_width/2, 200,
 @"score 800 points to win!
 
-UP: move
-LEFT/RIGHT: change direction
+UP arrow: move
+LEFT/RIGHT arrows: change direction
 SPACE: shoot
 
 >> PRESS enter to start <<
@@ -29,7 +29,7 @@ SPACE: shoot
 	draw_set_halign(fa_center)
 	var c = c_green;
 		draw_text_transformed_color(
-			room_width/2, 100, "you won", 
+			room_width/2, 100, "YOU WON", 
 			3, 3, 0, c,c,c,c, 1
 		);
 		draw_text(
@@ -43,7 +43,7 @@ SPACE: shoot
 	draw_set_halign(fa_center)
 	var c = c_red;
 		draw_text_transformed_color(
-			room_width/2, 150, "game over", 
+			room_width/2, 150, "GAME OVER", 
 			3, 3, 0, c,c,c,c, 1
 		);
 		draw_text(
